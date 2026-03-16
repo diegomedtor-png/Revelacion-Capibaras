@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Revelación del Bebé 🦫</title>
+<title>Revelación Capibaras</title>
 
 <style>
 
@@ -23,24 +24,18 @@ padding:60px 20px;
 }
 
 h1{
-font-size:42px;
+font-size:40px;
 }
 
-.capy{
-font-size:80px;
-animation:float 3s infinite ease-in-out;
-}
-
-@keyframes float{
-0%{transform:translateY(0)}
-50%{transform:translateY(-15px)}
-100%{transform:translateY(0)}
+.capibaras{
+font-size:60px;
+margin-bottom:10px;
 }
 
 .container{
-padding:20px;
 max-width:700px;
 margin:auto;
+padding:20px;
 }
 
 .info{
@@ -48,63 +43,56 @@ font-size:22px;
 margin:10px 0;
 }
 
-.button{
-
-background:#ff5fa2;
-color:white;
-padding:16px 30px;
-border-radius:40px;
-text-decoration:none;
-font-size:18px;
-display:inline-block;
-margin-top:25px;
-transition:0.3s;
-}
-
-.button:hover{
-transform:scale(1.1);
-background:#ff3f8b;
-}
-
 .countdown{
 font-size:28px;
-margin-top:30px;
+margin-top:20px;
 font-weight:bold;
 }
 
-.map{
+iframe{
 margin-top:30px;
 border-radius:10px;
-overflow:hidden;
 }
 
 footer{
 margin-top:40px;
 padding:20px;
-font-size:16px;
 }
 
-.capyline{
-font-size:40px;
-margin-top:20px;
-animation:bounce 2s infinite;
+.side{
+position:fixed;
+bottom:20px;
+font-size:70px;
 }
 
-@keyframes bounce{
-0%,100%{transform:translateY(0)}
-50%{transform:translateY(-10px)}
+.left{
+left:10px;
+}
+
+.right{
+right:10px;
+}
+
+@media(max-width:768px){
+.side{
+font-size:45px;
+bottom:10px;
+}
 }
 
 </style>
+
 </head>
 
 <body>
 
 <header>
 
-<div class="capy">🦫🦫🦫</div>
+<div class="capibaras">
+🦫🦫🦫
+</div>
 
-<h1>¡Revelación de Sexo!</h1>
+<h1>Revelación de Sexo</h1>
 
 <p>Los capibaras están listos para revelar el secreto 👶</p>
 
@@ -112,17 +100,28 @@ animation:bounce 2s infinite;
 
 <div class="container">
 
-<div class="info">📅 <b>4 de abril</b></div>
-<div class="info">⏰ <b>2:00 PM</b></div>
-<div class="info">📍 <b>La Estancita 1110<br>Colonia Tabachines</b></div>
+<div class="info">
+📅 <b>4 de abril</b>
+</div>
 
-<a class="button" href="https://forms.gle/TUFORMULARIO">
-Confirmar asistencia
-</a>
+<div class="info">
+⏰ <b>2:00 PM</b>
+</div>
+
+<div class="info">
+📍 <b>La Estancita 1110<br>Colonia Tabachines</b>
+</div>
 
 <div class="countdown" id="contador"></div>
 
-<div class="map">
+<h2>Confirma tu asistencia</h2>
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSecXmtQy0bWQXYVFu3nRIrvpm9JmLAuHGxzjwc_0Z7NHKdCrA/viewform?embedded=true" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>width="100%"
+height="700"
+frameborder="0">
+</iframe>
+
+<div style="margin-top:30px">
 
 <iframe
 src="https://maps.google.com/maps?q=La%20Estancita%201110%20Tabachines&t=&z=15&ie=UTF8&iwloc=&output=embed"
@@ -133,15 +132,23 @@ frameborder="0">
 
 </div>
 
-<div class="capyline">🦫🦫🦫🦫🦫</div>
-
 </div>
 
 <footer>
 
-Capibaras + sorpresa = día perfecto 🎉
+🦫 Capibaras + sorpresa = día perfecto 🎉
 
 </footer>
+
+<!-- Capibaras laterales -->
+
+<div class="side left">
+🦫🌹
+</div>
+
+<div class="side right">
+🦫🧢🎒
+</div>
 
 <script>
 
